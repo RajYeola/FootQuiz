@@ -1,0 +1,30 @@
+.input-basic {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid var(--secondary-border-color);
+  background-color: var(--secondary-background-color);
+  height: 2rem;
+  font-family: inherit;
+  font-size: 1rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.input-basic:focus {
+  border-bottom: 2px solid var(--secondary-text-color);
+}
+
+.bg-success {
+  background-color: #52a552;
+}
+
+.bg-success:hover {
+  background-color: #499449;
+}
+
+.bg-danger {
+  background-color: #b91c1c;
+}
+
+.bg-danger:hover {
+  background-color: #991b1b;
+}
