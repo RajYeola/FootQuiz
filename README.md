@@ -13,3 +13,4 @@ An quiz app for football lovers ⚽
 - Multiple quizzes
 - Score updates with every question
 - Dark mode enabled
+- Responsive design
