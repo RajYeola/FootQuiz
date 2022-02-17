@@ -1,5 +1,5 @@
 # FootQuiz
-An quiz app for football lovers ⚽
+A quiz app for football lovers ⚽
 
 ## Tech Stack
 - React
