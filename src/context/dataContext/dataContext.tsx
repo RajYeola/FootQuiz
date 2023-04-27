@@ -15,7 +15,7 @@ const DataContextProvider = ({ children }: DataContextProviderProps) => {
   useEffect(() => {
     (async () => {
       const quizzes = await axios.get<FetchAllQuizzes>(
-        "https://footquiz-api.herokuapp.com/quiz"
+        "https://footquiz-backend-rajyeola.vercel.app/quiz"
       );
       dispatch({ type: "SET_QUIZ_DATA", payload: quizzes.data.allQuizzes });
     })();

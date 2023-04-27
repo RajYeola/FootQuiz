@@ -19,7 +19,7 @@ const AuthContextProvider = ({ children }: AuthContextProviderProps) => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [token, setToken] = useState<null | string>("");
   const navigate = useNavigate();
-  const url = "https://footquiz-api.herokuapp.com";
+  const url = "https://footquiz-backend-rajyeola.vercel.app";
 
   useEffect(() => {
     const isUserLoggedIn = JSON.parse(localStorage?.getItem("token") as string);
